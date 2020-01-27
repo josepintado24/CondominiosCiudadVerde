@@ -42,25 +42,19 @@ print ('<!DOCTYPE html>
 						<div class="right-bar d-flex align-items-center">
 							<nav class="d-flex align-items-center">
 								<ul class="main-menu">
-									<li><a href="./">Inicio</a></li>
-									<li><a href="pagos">Pagos</a></li>
-									<li><a href="dashboard">Dashboard</a></li>
-									<li><a href="salir">Salir</a></li>
+									<a href="./">Inicio</a>
+									<a href="pagos">Pagos</a>
+									<a href="dashboard">Dashboard</a>
+									<a href="salir">Salir</a>
 								</ul>
 								<a href="#" class="mobile-btn"><span class="lnr lnr-menu"></span></a>
 							</nav>
-							<div class="search relative">
-								<span class="lnr lnr-magnifier"></span>
-								<form action="#" class="search-field">
-									<input type="text" placeholder="Search here" onfocus="this.placeholder = \'\'" onblur="this.placeholder = \'Search here\'">
-									<button class="search-submit"><span class="lnr lnr-magnifier"></span></button>
-								</form>
-							</div>
-							<div class="header-social d-flex align-items-center">
+							
+							<!--<div class="header-social d-flex align-items-center">
 								<a href="#"><i class="fa fa-facebook"></i></a>
 								<a href="#"><i class="fa fa-twitter"></i></a>
 								<a href="#"><i class="fa fa-linkedin"></i></a>
-							</div>
+							</div>-->
 						</div>
 					</div>
 				</div>
