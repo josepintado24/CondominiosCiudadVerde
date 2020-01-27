@@ -1,28 +1,69 @@
 <?php
 print ('<!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="no-js">
 <head>
-     <meta name="viewport" content="whidth?device-width,initial-scale=1">
-     <meta charset="utf-8">
-     <title>Condominio Ciudad Verde</title>
-     <meta name="description" content="Bienvenidos a Ciudad Verde">
-     <link rel="shortcut icon" type="image/png" href="./public/img/favicon.png">
-     <link rel="stylesheet" href="./public/css/responsimple.min.css">
-     <link rel="stylesheet" href="./public/css/ciudadverde.css">
-</head>
-<body>
-    <header class="container center header">
-        <div class="item i-b v-middle ph12 lg2 lg-left">
-            <h1 class="logo">Ciudad Verde</h1>
-        </div>
-        <nav  class="item i-b v-middle ph12 lg10  lg-right">
-            <ul class="container">
-                <li class="nobullet item inline"><a href="./">Inicio</a></li>
-                <li class="nobullet item inline"><a href="pagos">Pagos</a></li>
-                <li class="nobullet item inline"><a href="dashboard">Dashboard</a></li>
-                <li class="nobullet item inline"><a href="salir">Salir</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="container center main">
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="./public/img/favicon.png">
+	<!-- Author Meta -->
+	<meta name="author" content="CodePixar">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Ciudad Verde</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600" rel="stylesheet">
+		<!--
+		CSS
+		============================================= -->
+		<link rel="stylesheet" href="./public/start/css/linearicons.css">
+		<link rel="stylesheet" href="./public/start/css/owl.carousel.css">
+		<link rel="stylesheet" href="./public/start/css/font-awesome.min.css">
+		<link rel="stylesheet" href="./public/start/css/animate.css">
+		<link rel="stylesheet" href="./public/start/css/bootstrap.css">
+		<link rel="stylesheet" href="./public/start/css/main.css">
+	</head>
+	<body>
+		<div id="top"></div>
+		<!-- Start Header Area -->
+		<header class="default-header">
+			<div class="sticky-header">
+				<div class="container">
+					<div class="header-content d-flex justify-content-between align-items-center">
+						<div class="logo">
+						    <h1 class="text-white h1">Ciudad Verde</h1>
+							<!--<a href="#top" class="smooth"><img src="./public/login/images/img-011.png" alt=""></a>-->
+						</div>
+						<div class="right-bar d-flex align-items-center">
+							<nav class="d-flex align-items-center">
+								<ul class="main-menu">
+									<li><a href="./">Inicio</a></li>
+									<li><a href="pagos">Pagos</a></li>
+									<li><a href="dashboard">Dashboard</a></li>
+									<li><a href="salir">Salir</a></li>
+								</ul>
+								<a href="#" class="mobile-btn"><span class="lnr lnr-menu"></span></a>
+							</nav>
+							<div class="search relative">
+								<span class="lnr lnr-magnifier"></span>
+								<form action="#" class="search-field">
+									<input type="text" placeholder="Search here" onfocus="this.placeholder = \'\'" onblur="this.placeholder = \'Search here\'">
+									<button class="search-submit"><span class="lnr lnr-magnifier"></span></button>
+								</form>
+							</div>
+							<div class="header-social d-flex align-items-center">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 ');
