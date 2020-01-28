@@ -5,14 +5,14 @@ class UsersModel extends Model {
 		foreach ($propietario_data as $key => $value) {
 			$$key = $value;
 		}
-		$this->query = "REPLACE INTO tnzruqfxnb.propietario(apellido,dni,estado,nombre,tipousuario)
+		$this->query = "REPLACE INTO propietario(apellido,dni,estado,nombre,tipousuario)
                         VALUES ($apellido,$dni,$estado,$nombre,$tipousuario)";
 		$this->set_query();
 	}
 
 	public function get( $dni = '' ) {
 		$this->query = ($dni != '')
-			?"SELECT * FROM tnzruqfxnb.propietario WHERE dni = $dni"
+			?"SELECT * FROM propietario WHERE dni = $dni"
 			:"SELECT * FROM status";
 		
 		$this->get_query();
@@ -27,11 +27,11 @@ class UsersModel extends Model {
 	}
 
 	public function del( $dni = '' ) {
-		$this->query = "DELETE FROM tnzruqfxnb.propietario WHERE dni = $dni";
+		$this->query = "DELETE FROM propietario WHERE dni = $dni";
 		$this->set_query();
 	}
 	public function validate_user($dni){
-	    $this->query="SELECT * FROM tnzruqfxnb.propietario where  dni=$dni";
+	    $this->query="SELECT * FROM propietario where  dni=$dni";
         $this->get_query();
         $data = array();
 

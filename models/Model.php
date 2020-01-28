@@ -3,9 +3,9 @@
 abstract class Model {
 
 	private static $db_host = 'localhost';
-	private static $db_user = 'tnzruqfxnb';
-	private static $db_pass = 'fw43pEEbA6';
-    private static $db_name = 'tnzruqfxnb';
+	private static $db_user = 'id8879206_josepintado24';
+	private static $db_pass = 'josepintado24';
+    private static $db_name = 'id8879206_ciudadverde';
 	//private static $db_name = 'ciudadverde';
     //private static $db_user = 'root';
     //private static $db_pass = '';
