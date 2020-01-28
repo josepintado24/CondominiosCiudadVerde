@@ -5,7 +5,7 @@ class Router{
 
         $session_options= array(
             'use_only_cookies' =>1,
-            'auto_start' =>1,
+            'auto_start' =>0,
             'read_and_close' =>true
         );
 

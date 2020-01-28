@@ -3,9 +3,12 @@
 abstract class Model {
 
 	private static $db_host = 'localhost';
-	private static $db_user = 'root';
-	private static $db_pass = '';
-	private static $db_name = 'ciudadverde';
+	private static $db_user = 'tnzruqfxnb';
+	private static $db_pass = 'fw43pEEbA6';
+    private static $db_name = 'tnzruqfxnb';
+	//private static $db_name = 'ciudadverde';
+    //private static $db_user = 'root';
+    //private static $db_pass = '';
 	//protected $db_name;
 	private static $db_charset = 'utf8';
 	private $conn;
