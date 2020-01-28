@@ -2,10 +2,10 @@
 
 abstract class Model {
 
-	private static $db_host = 'localhost';
-	private static $db_user = 'id8879206_josepintado24';
-	private static $db_pass = 'josepintado24';
-    private static $db_name = 'id8879206_ciudadverde';
+	private static $db_host = 'brjgxecvcihvenutbxxk-mysql.services.clever-cloud.com';
+	private static $db_user = 'uyigepkhpjqyyuhg';
+	private static $db_pass = 'AheQHutea0gJAailQNqB';
+    private static $db_name = 'brjgxecvcihvenutbxxk';
 	//private static $db_name = 'ciudadverde';
     //private static $db_user = 'root';
     //private static $db_pass = '';
