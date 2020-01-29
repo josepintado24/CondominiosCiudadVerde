@@ -4,8 +4,7 @@ class Router{
     public function __construct($route){
 
         $session_options= array(
-            'cookie_lifetime' => 20,
-            'read_and_close'  => true,
+
         );
 
         if(!isset($_SESSION)){
