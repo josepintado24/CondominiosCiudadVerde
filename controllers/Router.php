@@ -15,9 +15,11 @@ class Router{
             $_SESSION['ok']=false;
         }
         if($_SESSION['ok']){
-           $this->route=isset($_GET['a']) ? $_GET['a'] : 'home';
+           $this->route=isset($_GET['r']) ? $_GET['r'] : 'home';
             $controller =new ViewController();
-            switch ($this->route){
+            $controller->load_view('home');
+
+           /* switch ($this->route){
                 case 'home':
                     $controller->load_view('home');
                     break;
@@ -36,7 +38,7 @@ class Router{
                 default:
                     $controller->load_view('error404');
                     break;
-            }
+            }*/
 
         }else{
             if(!isset($_POST['dni'])){
