@@ -18,9 +18,13 @@ class Router{
            $this->route=isset($_GET['r']) ? $_GET['r'] : 'home';
             $controller =new ViewController();
             $controller->load_view('home');
-
+            if ($this->route=='pagos'){
+                $controller =new ViewController();
+                $controller->load_view('pagos');
+            }
            /* switch ($this->route){
                 case 'home':
+
                     $controller->load_view('home');
                     break;
                 case 'pagos':
