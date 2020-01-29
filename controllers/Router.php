@@ -15,7 +15,7 @@ class Router{
             $_SESSION['ok']=false;
         }
         if($_SESSION['ok']){
-           $this->route=isset($_GET['r']) ;//? $_GET['r'] : 'home';
+           $this->route=isset($_GET['a']) ? $_GET['a'] : 'home';
             $controller =new ViewController();
             switch ($this->route){
                 case 'home':
