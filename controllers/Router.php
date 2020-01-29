@@ -15,10 +15,10 @@ class Router{
             $_SESSION['ok']=false;
         }
         if($_SESSION['ok']){
-           $this->route=isset($_GET['r']) ? $_GET['r'] : 'home';
+           $route=isset($_GET['r']) ? $_GET['r'] : 'home';
             $controller =new ViewController();
 
-           switch ($this->route){
+           switch ($route){
                 case 'home':
 
                     $controller->load_view('home');
