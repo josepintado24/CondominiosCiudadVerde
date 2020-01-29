@@ -1,6 +1,6 @@
 <?php
 class Router{
-    public $route;
+    //public $route;
     public function __construct($route){
 
         $session_options= array(
@@ -17,12 +17,8 @@ class Router{
         if($_SESSION['ok']){
            $this->route=isset($_GET['r']) ? $_GET['r'] : 'home';
             $controller =new ViewController();
-            $controller->load_view('home');
-            if ($this->route=='pagos'){
-                $controller =new ViewController();
-                $controller->load_view('pagos');
-            }
-           /* switch ($this->route){
+
+           switch ($this->route){
                 case 'home':
 
                     $controller->load_view('home');
@@ -42,7 +38,7 @@ class Router{
                 default:
                     $controller->load_view('error404');
                     break;
-            }*/
+            }
 
         }else{
             if(!isset($_POST['dni'])){
