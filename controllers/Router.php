@@ -17,8 +17,7 @@ class Router{
         if($_SESSION['ok']){
            $route=isset($_GET['r']) ? $_GET['r'] : 'home';
            $controller =new ViewController();
-            $controller->load_view($route);
-          /* switch ($route){
+           switch ($route){
                 case 'home':
 
                     $controller->load_view('home');
@@ -38,7 +37,7 @@ class Router{
                 default:
                     $controller->load_view('error404');
                     break;
-            }*/
+            }
 
         }else{
             if(!isset($_POST['dni'])){
