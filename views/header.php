@@ -43,9 +43,9 @@ print ('<!DOCTYPE html>
 							<nav class="d-flex align-items-center">
 								<ul class="main-menu">
 									<a href="./">Inicio</a>
-									<a href="index.php?r=pagos">Pagos</a>
-									<a href="index.php?r=dashboard">Dashboard</a>
-									<a href="index.php?r=salir">Salir</a>
+									<a href="./?r=pagos">Pagos</a>
+									<a href="./?r=dashboard">Dashboard</a>
+									<a href="./?r=salir">Salir</a>
 								</ul>
 								<a href="#" class="mobile-btn"><span class="lnr lnr-menu"></span></a>
 							</nav>
