@@ -4,9 +4,8 @@ class Router{
     public function __construct($route){
 
         $session_options= array(
-            'use_only_cookies' =>1,
-            'auto_start' =>0,
-            'read_and_close' =>true
+            'cookie_lifetime' => 20,
+            'read_and_close'  => true,
         );
 
         if(!isset($_SESSION)){
