@@ -1,85 +1,62 @@
 <?php
-print ('
-     <!--<footer class="section-full">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-footer-widget">
-							<h6 class="text-white text-uppercase mb-20">About Agency</h6>
-							<p>The world has become so fast paced that people don’t want to stand by reading a page of information, they would much rather look at a presentation and understand the message. It has come to a point </p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-footer-widget">
-							<h6 class="text-white text-uppercase mb-20">Navigation Links</h6>
-							<div class="d-flex">
-								<ul class="footer-nav">
-									<li><a href="#">Home</a></li>
-									<li><a href="#">Features</a></li>
-									<li><a href="#">Services</a></li>
-									<li><a href="#">Portfolio</a></li>
-								</ul>
-								<ul class="ml-30 footer-nav">
-									<li><a href="#">Team</a></li>
-									<li><a href="#">Pricing</a></li>
-									<li><a href="#">Blog</a></li>
-									<li><a href="#">Contact</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-footer-widget">
-							<h6 class="text-white text-uppercase mb-20">Newsletter</h6>
-							<p>For business professionals caught between high OEM price and mediocre print and graphic output,</p>
-							<div id="mc_embed_signup">
-								<form target="_blank" novalidate action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01" method="get" class="subscription relative d-flex justify-content-center">
-									<input type="email" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = \'\'" onblur="this.placeholder = \'Email address\'" required>
-									<div style="position: absolute; left: -5000px;">
-										<input type="text" name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="">
-									</div>
-									<button type="submit" class="newsletter-btn" name="subscribe"><span class="lnr lnr-location"></span></button>
-									<div class="info"></div>
-								</form>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-footer-widget">
-							<h6 class="text-white text-uppercase mb-20">Instafeed</h6>
-							<ul class="instafeed d-flex flex-wrap">
-								<li><img src="./public/start/img/i1.jpg" alt=""></li>
-								<li><img src="./public/start/img/i2.jpg" alt=""></li>
-								<li><img src="./public/start/img/i3.jpg" alt=""></li>
-								<li><img src="./public/start/img/i4.jpg" alt=""></li>
-								<li><img src="./public/start/img/i5.jpg" alt=""></li>
-								<li><img src="./public/start/img/i6.jpg" alt=""></li>
-								<li><img src="./public/start/img/i7.jpg" alt=""></li>
-								<li><img src="./public/start/img/i8.jpg" alt=""></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="footer-bottom d-flex justify-content-between align-items-center">
-					<p class="footer-text m-0">Copyright &copy; 2017  |  All rights reserved to <a href="#">Datarc inc.</a> Designed by <a href="https://colorlib.com/wp">Colorlib</a>.</p>
-					<div class="footer-social d-flex align-items-center">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-dribbble"></i></a>
-						<a href="#"><i class="fa fa-behance"></i></a>
-					</div>
-				</div>
-			</div>
-		</footer>-->
+print ('  <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; Your Website 2019</span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
 
-		<script src="./public/start/js/vendor/jquery-2.2.4.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-		<script src="./public/start/js/vendor/bootstrap.min.js"></script>
-		<script src="./public/start/js/jquery.ajaxchimp.min.js"></script>
-		<script src="./public/start/js/jquery.sticky.js"></script>
-		<script src="./public/start/js/owl.carousel.min.js"></script>
-		<script src="./public/start/js/mixitup.min.js"></script>
-		<script src="./public/start/js/main.js"></script>
-	</body>
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="./public/vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="./public/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="./public/js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="./public/vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="./public/js/demo/chart-area-demo.js"></script>
+  <script src="./public/js/demo/chart-pie-demo.js"></script>
+
+</body>
+
 </html>
 ');
