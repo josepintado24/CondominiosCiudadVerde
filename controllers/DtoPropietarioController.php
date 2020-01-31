@@ -1,10 +1,10 @@
 <?php 
 
-class PropietarioController {
+class DtoPropietarioController {
 	private $model;
 
     public function __construct() {
-		$this->model = new UsersModel();
+		$this->model = new DptoPropietarioModel();
 	}
 
 	public function set( $status_data = array() ) {
