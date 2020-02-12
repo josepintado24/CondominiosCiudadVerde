@@ -2,7 +2,7 @@
 -- Script de MySQL
 -- Base de Datos : Ciudad Verde
 -- Author : Jose Luis Pintado Vasquez
--- Fecha : 23-01-2020
+-- Fecha : 23-01-2020----
 -- --------------------------------
 drop table if exists ciudadverde;
 create database ciudadverde;
