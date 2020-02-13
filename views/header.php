@@ -66,10 +66,9 @@ $template='
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Ver:</h6>
-            <a class="collapse-item" href="buttons.html">Deudas</a>
-            <a class="collapse-item" href="cards.html">Pagos</a>
-            <a class="collapse-item" href="cards.html">Recibo</a>
-            <a class="collapse-item" href="cards.html">Datos</a>
+            <a class="collapse-item" href="./?r=pagos"">Pagos</a>
+            <a class="collapse-item" href="./?r=recibos">Recibos</a>
+            <a class="collapse-item" href="./?r=datos">Datos</a>
           </div>
         </div>
       </li>
@@ -203,15 +202,15 @@ $template='
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="./?r=pagos">
+                <a class="dropdown-item" href="pagos">
                   <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                   Pagos
                 </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="recibos">
                   <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                   Recibos
                 </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="datos">
                   <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
                   Información
                 </a>
