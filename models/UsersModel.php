@@ -13,7 +13,7 @@ class UsersModel extends Model {
 	public function get( $dni = '' ) {
 		$this->query = ($dni != '')
 			?"SELECT * FROM propietario WHERE dni = $dni"
-			:"SELECT * FROM status";
+			:"SELECT * FROM propietario";
 		
 		$this->get_query();
 		$num_rows = count($this->rows);

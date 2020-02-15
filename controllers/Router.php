@@ -26,10 +26,14 @@ class Router{
 
                     $controller->load_view('pagos');
                     break;
-                case 'dashboard':
+                case 'recibos':
 
-                    $controller->load_view('dashboard');
+                    $controller->load_view('recibos');
                     break;
+               case 'datos':
+
+                   $controller->load_view('datos');
+                   break;
                 case 'salir':
                     $user_session= new SessionController();
                     $user_session->logout();

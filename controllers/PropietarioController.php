@@ -3,7 +3,7 @@
 class PropietarioController {
 	private $model;
 
-	public function __construct() {
+    public function __construct() {
 		$this->model = new UsersModel();
 	}
 

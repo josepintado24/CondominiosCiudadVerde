@@ -1,63 +1,135 @@
 <?php
-print ('<!DOCTYPE html>
-<html lang="es" class="no-js">
-<head>
-	<!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Favicon-->
-	<link rel="shortcut icon" href="./public/img/favicon.png">
-	<!-- Author Meta -->
-	<meta name="author" content="CodePixar">
-	<!-- Meta Description -->
-	<meta name="description" content="">
-	<!-- Meta Keyword -->
-	<meta name="keywords" content="">
-	<!-- meta character set -->
-	<meta charset="UTF-8">
-	<!-- Site Title -->
-	<title>Ciudad Verde</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600" rel="stylesheet">
-		<!--
-		CSS
-		============================================= -->
-		<link rel="stylesheet" href="./public/start/css/linearicons.css">
-		<link rel="stylesheet" href="./public/start/css/owl.carousel.css">
-		<link rel="stylesheet" href="./public/start/css/font-awesome.min.css">
-		<link rel="stylesheet" href="./public/start/css/animate.css">
-		<link rel="stylesheet" href="./public/start/css/bootstrap.css">
-		<link rel="stylesheet" href="./public/start/css/main.css">
-	</head>
-	<body>
-		<div id="top"></div>
-		<!-- Start Header Area -->
-		<header class="default-header">
-			<div class="sticky-header">
-				<div class="container">
-					<div class="header-content d-flex justify-content-between align-items-center">
-						<div class="logo">
-						    <h1 class="text-white h1">Ciudad Verde</h1>
-							<!--<a href="#top" class="smooth"><img src="./public/login/images/img-011.png" alt=""></a>-->
-						</div>
-						<div class="right-bar d-flex align-items-center">
-							<nav class="d-flex align-items-center">
-								<ul class="main-menu">
-									<a href="./">Inicio</a>
-									<a href="./?r=pagos">Pagos</a>
-									<a href="./?r=dashboard">Dashboard</a>
-									<a href="./?r=salir">Salir</a>
-								</ul>
-								<a href="#" class="mobile-btn"><span class="lnr lnr-menu"></span></a>
-							</nav>
-							
-							<!--<div class="header-social d-flex align-items-center">
-								<a href="#"><i class="fa fa-facebook"></i></a>
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-linkedin"></i></a>
-							</div>-->
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-');
+$template='
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Ciudad Verde</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="shortcut icon" type="image/png" href="./public/img/favicon.png">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./public/plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="./public/dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition sidebar-mini">
+<!-- Site wrapper -->
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="./" class="nav-link">Home</a>
+      </li>
+      
+    </ul>
+
+    <!-- SEARCH FORM -->
+    
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Messages Dropdown Menu -->
+      
+      <!-- Notifications Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link d-block" data-toggle="dropdown" href="#">
+          Jose Luis Pintado Vasquez
+        </a>
+        
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#">
+          <i class="fas fa-sign-out-alt"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="./" class="brand-link">
+      <img src="./public/img/logo.png"
+           alt="Ciudad Verde Logo"
+           class="brand-image img-circle elevation-3"
+           style="opacity: .8">
+      <span class="brand-text font-weight-light">Ciudad Verde</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="./public/img/user30px.png" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Jose Luis Pintado Vasquez</a>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item has-treeview">
+            <a href="./" class="nav-link">
+              <i class="nav-icon fas fas fa-home"></i>
+              <p>
+                Home
+                
+              </p>
+            </a>
+            
+          </li>
+          <li class="nav-item">
+            <a href="?r=pago" class="nav-link">
+              <i class="nav-icon fas fa-info-circle"></i>
+              <p>
+                Pagos
+                
+              </p>
+            </a>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="?r=recibo" class="nav-link">
+              <i class="nav-icon fas fa-copy"></i>
+              <p>
+                Recibos
+                
+              </p>
+            </a>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="?r=perfil" class="nav-link">
+              <i class="nav-icon fas fa-user"></i>
+              <p>
+                Perfil
+               
+              </p>
+            </a>
+          </li>
+          
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+  ';
+
+printf($template,$_SESSION['nombre'].' '.$_SESSION['apellido'],$_SESSION['nombre'].' '.$_SESSION['apellido']);
