@@ -7,272 +7,372 @@ $template='
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12 mt-2">
-            
-            <div class="card">
-              
-              <div class="card-body d-flex flex-wrap">
-                <div class="col-12 text-center mb-3 titulo">
-                  <h1>Recibo de Mantenimiento</h1>
+                <div class="card">                  
+                            <h1 align="center">Recibo de Mantenimiento</h1>
+                            <div align="center" class="row " >
+                                <div class="col-sm-12 col-lg-4  col-md-12 ">
+                                    <div class="center-block">
+                                            <img src="./public/login/images/img-011.png" alt="IMG">
+                                        </div>
+                                    </div>
+                                <div class="col-sm-12 col-lg-5  col-md-12 ">
+                                <br>
+                                    <p class="
+                                    text-secondary">Panamericana Norte Km 27 - Puente Piedra 
+                                    
+                                    <strong class="nav-icon fas fa-phone-alt"> 924 354 056</strong></p>
+                                </div>
+                                <div class="col-sm-12 col-lg-3  col-md-12 ">
+                                  <div class="table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
+                                    <table class=" table table-borderless table-sm text-center" >
+                                      <thead ">
+                                        <tr >
+                                          <th class="bg-light" colspan="2" >REFERENCIA</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                         
+                                          <td colspan="2">24 ENERO</td>
+                                        </tr>
+                                      </tbody>
+                                      <thead>
+                                        <tr class="">
+                                          <th class="bg-light" colspan="2">Nro DE RECIBO</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td colspan="2">01-ENERO-2020</td>
+                                        </tr>
+                                      </tbody>
+                                      <thead ">
+                                        <tr >
+                                          <th class="bg-light"  >F. emisión</th>
+                                          <th class="bg-light"  >F. vencimiento</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td >27/01/20</td>
+                                           <td ">27/01/20</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>                        
+                            </div>                        
+                      <div class="table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
+                        <table class=" table table-borderless table-sm">
+                          <thead class="bg-light">
+                            <tr >
+                              <th scope="col">TIPO CUOTA</th>
+                              <th scope="col">MES</th>
+                              <th scope="col">AÑO</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Ordinaria</td>
+                              <td>Enero</td>
+                              <td>2020</td>
+                            </tr>
+                           
+                          </tbody>
+                        </table>
+                      </div>
                 </div>
-                <div class="col-sm-8 text-center">
-                  <img src="img/img-011.png" alt="">      
+                <div class="card">  
+                        <table class="table table-hover  table-sm">
+                          <thead >
+                            <tr>
+                              <th class=" bg-info text-center" colspan="2" scope="col">DATOS DEL PROPIETARIO</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">Prpietario</th>
+                              <td>Jose Luis Pintado Vásquez</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Torre</th>
+                              <td>Jacob</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Apartamento</th>
+                              <td>Larry</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Estacionamiento</th>
+                              <td>Larry</td>
+                            </tr>
+                          </tbody>
+                        </table>
                 </div>
-                <div class="col-sm-4">
-                  <table class="table">
-                    <thead class="">
-                      <tr>
-                        <th colspan="2" class="text-center">Referencia</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>204M-1</td>
-                        <td>Enero</td>
-                      </tr>
-                    </tbody>
-                  </table>
-
-                  <table class="table">
-                    <thead class="">
-                      <tr>
-                        <th colspan="2" class="text-center">Nro de recibo</th>
-                      </tr>
-                    </thead>
-                    <tbody class="text-center">
-                      <tr>
-                        <td>001-ENERO-2020</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <div class="card"> 
+                        <table class="table table-borderless table-sm text-center">
+                          <thead >
+                            <tr>
+                              <th colspan="3" class="bg-light" scope="col">FACTURACIÓN DE AGUA PERIODO DE CONSUMO</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td colspan="3" scope="row">13/12/2019 A 12/01/2020</td>
+                            </tr>
+                          </tbody>
+                          <thead class="bg-light">
+                            <tr>
+                              <th scope="col">LECTURA ANTERIOR</th>
+                              <th scope="col">LECTURA ACTUAL</th>
+                              <th scope="col">CONSUMO M3</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td scope="row">178978</td>
+                              <td scope="row">1178978</td>
+                              <td scope="row">1178978</td>
+                            </tr>
+                          </tbody>
+                        </table>
                 </div>
-
-                <div class="col-lg-12">
-                  <table class="table">
-                    <thead class="cabezal">
-                      <tr class="text-center">
-                        <th scope="col">Tipo de cuota</th>
-                        <th scope="col">Mes</th>
-                        <th scope="col">Año</th>
-                        <th scope="col">Fecha de emisión</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr class="text-center">
-                        <td>Ordinaria</td>
-                        <td>Enero</td>
-                        <td>2020</td>
-                        <td>27/01/20</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <div class="card"> 
+                        <table class="table table-striped table-sm">
+                          <thead class="bg-info">
+                            <tr >
+                              <th scope="col">DESCRIPCIÓN</th>
+                              <th scope="col">MONTO</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Mark</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Jacob</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Larry</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">4</th>
+                              <td>Larry</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">5</th>
+                              <td>Mark</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">6</th>
+                              <td>Mark</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">7</th>
+                              <td>Mark</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">8</th>
+                              <td>Mark</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">9</th>
+                              <td>Mark</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">10</th>
+                              <td>Mark</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">11</th>
+                              <td>Mark</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Mantenimiento de jardines e implentos</th>
+                              <td>Mark</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">13</th>
+                              <td>Mark</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">14</th>
+                              <td>Mark</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">15</th>
+                              <td>Mark</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">16</th>
+                              <td>Mark</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">17</th>
+                              <td>Mark</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">18</th>
+                              <td>Mark</td>
+                            </tr>
+                            <tr class="table-primary align-left">
+                              <th class="text-right" scope="row" >TOTAL</th>
+                              <td>5000000</td>
+                            </tr>
+                          </tbody>
+                        </table>
                 </div>
-
-                <div class="col-lg-12">
-                  <table class="table">
-                    <thead class="cabezal text-center">
-                      <tr>
-                        <th colspan="2">Datos del propietario</th>
-                        <th >Fecha de vencimiento</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Propietario(a):</td>
-                        <td>OBREGON DE LA ROSA JOSE</td>
-                        <td class="text-center">31/01/2020</td>
-                      </tr>
-                      <tr>
-                        <td>Torre:</td>
-                        <td>M</td>
-                      </tr>
-                      <tr>
-                        <td>Apartamento:</td>
-                        <td>204</td>
-                      </tr>
-                      <tr>
-                        <td>Estacionamiento:</td>
-                        <td>si</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <!info -->
+                
+                <div class="card"> 
+                   <div class="card card-success">
+                        <div class="card-header">
+                            <h3 class="card-title">Files</h3>
+        
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
+                                <i class="fas fa-minus"></i></button>
+                            </div>
+                        </div>
+                        <div class="card-body p-0">
+                            <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th>File Name</th>
+                                    <th>File Size</th>
+                                    <th></th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                
+                                  <tr>
+                                    <td>Functional-requirements.docx</td>
+                                    <td>49.8005 kb</td>
+                                    <td class="text-right py-0 align-middle">
+                                      <div class="btn-group btn-group-sm">
+                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                                      </div>
+                                    </td>
+                                  <tr>
+                                    <td>UAT.pdf</td>
+                                    <td>28.4883 kb</td>
+                                    <td class="text-right py-0 align-middle">
+                                      <div class="btn-group btn-group-sm">
+                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                                      </div>
+                                    </td>
+                                  <tr>
+                                    <td>Email-from-flatbal.mln</td>
+                                    <td>57.9003 kb</td>
+                                    <td class="text-right py-0 align-middle">
+                                      <div class="btn-group btn-group-sm">
+                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                                      </div>
+                                    </td>
+                                  <tr>
+                                    <td>Logo.png</td>
+                                    <td>50.5190 kb</td>
+                                    <td class="text-right py-0 align-middle">
+                                      <div class="btn-group btn-group-sm">
+                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                                      </div>
+                                    </td>
+                                  <tr>
+                                    <td>Contract-10_12_2014.docx</td>
+                                    <td>44.9715 kb</td>
+                                    <td class="text-right py-0 align-middle">
+                                      <div class="btn-group btn-group-sm">
+                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                                      </div>
+                                    </td>
+                                </tbody>
+                            </table>
+                        </div>
+                   </div>
+                   <div class="card card-warning">
+                        <div class="card-header">
+                            <h3 class="card-title">Files</h3>
+        
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
+                                <i class="fas fa-minus"></i></button>
+                            </div>
+                        </div>
+                        <div class="card-body p-0">
+                            <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th>File Name</th>
+                                    <th>File Size</th>
+                                    <th></th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                
+                                  <tr>
+                                    <td>Functional-requirements.docx</td>
+                                    <td>49.8005 kb</td>
+                                    <td class="text-right py-0 align-middle">
+                                      <div class="btn-group btn-group-sm">
+                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                                      </div>
+                                    </td>
+                                  <tr>
+                                    <td>UAT.pdf</td>
+                                    <td>28.4883 kb</td>
+                                    <td class="text-right py-0 align-middle">
+                                      <div class="btn-group btn-group-sm">
+                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                                      </div>
+                                    </td>
+                                  <tr>
+                                    <td>Email-from-flatbal.mln</td>
+                                    <td>57.9003 kb</td>
+                                    <td class="text-right py-0 align-middle">
+                                      <div class="btn-group btn-group-sm">
+                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                                      </div>
+                                    </td>
+                                  <tr>
+                                    <td>Logo.png</td>
+                                    <td>50.5190 kb</td>
+                                    <td class="text-right py-0 align-middle">
+                                      <div class="btn-group btn-group-sm">
+                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                                      </div>
+                                    </td>
+                                  <tr>
+                                    <td>Contract-10_12_2014.docx</td>
+                                    <td>44.9715 kb</td>
+                                    <td class="text-right py-0 align-middle">
+                                      <div class="btn-group btn-group-sm">
+                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                                      </div>
+                                    </td>
+                                </tbody>
+                            </table>
+                        </div>
+                   </div>
                 </div>
-
-                <div class="col-lg-12">
-                  <table class="table">
-                    <thead class="cabezal text-center">
-                      <tr>
-                        <th >Consumo de agua</th>
-                        <th >Periodo de consumo</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr class="text-center">
-                        <td>13/12/2019</td>
-                        <td>12/01/2020</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-
-                <div class="col-lg-12">
-                  <table class="table">
-                    <thead class="cabezal text-center">
-                      <tr>
-                        <th >Lectura anterior</th>
-                        <th >Lectura actual</th>
-                        <th >Monto M3</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr class="text-center">
-                        <td>178,67</td>
-                        <td>168,68</td>
-                        <td>8,01</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-
-                <div class="col-lg-12">
-                  <table class="table">
-                    <thead class="cabezal text-center">
-                      <tr>
-                        <th >Descripción</th>
-                        <th >Monto</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Consumo de agua</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>Alcantarrillado</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>IGV Sedapal</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>Agua de Área de consumo enero</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>Luz enero(Torre, Bomba de agua y Areas comunes)</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>Mantenimiento de ascensor</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>Mantenimiento generales</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>Mantenimiento cisterna de agua</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>Mantenimiento del extractor</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>Recarga de extinguidores</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>Mantenimiento de jardines e implementos</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>Ser. Administrativos - limpieza - seguridad</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>Materiales de limpieza</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>Fondo de contingencia</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>Utiles de oficina, impresiones - copias</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>Mora por retraso de pago (Mes de Diciembre)</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>Multa </td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                      <tr>
-                        <td>Reparación de ascensor</td>
-                        <td class="text-right">1111</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-
-                <div class="col-lg-12">
-                  <table class="table">
-                    <thead class="cabezal text-center">
-                      <tr>
-                        <th >Total</th>
-                        <th class="text-right" >$23434</th>
-                      </tr>
-                    </thead>
-                  </table>
-                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-              </div>
-            </div>
+          </div>
 
           </div>
         </div>
       </div>
     </section>
-
-    <!--  -->
-
-
-    <!-- <div class="card">
-      <div class="card-header">
-        Featured
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div> -->
-
-
-
-
-<!--  -->
-
   </div>
 
 ';

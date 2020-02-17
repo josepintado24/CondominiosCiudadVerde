@@ -22,17 +22,17 @@ class Router{
 
                     $controller->load_view('home');
                     break;
-                case 'pagos':
+                case 'pago':
 
-                    $controller->load_view('pagos');
+                    $controller->load_view('pago');
                     break;
-                case 'recibos':
+                case 'recibo':
 
-                    $controller->load_view('recibos');
+                    $controller->load_view('recibo');
                     break;
-               case 'datos':
+               case 'perfil':
 
-                   $controller->load_view('datos');
+                   $controller->load_view('perfil');
                    break;
                 case 'salir':
                     $user_session= new SessionController();
