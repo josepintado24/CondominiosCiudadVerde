@@ -230,7 +230,7 @@ $template='
                 <div class="card"> 
                    <div class="card card-success">
                         <div class="card-header">
-                            <h3 class="card-title">Files</h3>
+                            <h3 class="card-title">Informacion de Pago</h3>
         
                             <div class="card-tools">
                                 <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
@@ -238,63 +238,23 @@ $template='
                             </div>
                         </div>
                         <div class="card-body p-0">
-                            <table class="table">
-                                <thead>
-                                  <tr>
-                                    <th>File Name</th>
-                                    <th>File Size</th>
-                                    <th></th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                
-                                  <tr>
-                                    <td>Functional-requirements.docx</td>
-                                    <td>49.8005 kb</td>
-                                    <td class="text-right py-0 align-middle">
-                                      <div class="btn-group btn-group-sm">
-                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                                      </div>
-                                    </td>
-                                  <tr>
-                                    <td>UAT.pdf</td>
-                                    <td>28.4883 kb</td>
-                                    <td class="text-right py-0 align-middle">
-                                      <div class="btn-group btn-group-sm">
-                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                                      </div>
-                                    </td>
-                                  <tr>
-                                    <td>Email-from-flatbal.mln</td>
-                                    <td>57.9003 kb</td>
-                                    <td class="text-right py-0 align-middle">
-                                      <div class="btn-group btn-group-sm">
-                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                                      </div>
-                                    </td>
-                                  <tr>
-                                    <td>Logo.png</td>
-                                    <td>50.5190 kb</td>
-                                    <td class="text-right py-0 align-middle">
-                                      <div class="btn-group btn-group-sm">
-                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                                      </div>
-                                    </td>
-                                  <tr>
-                                    <td>Contract-10_12_2014.docx</td>
-                                    <td>44.9715 kb</td>
-                                    <td class="text-right py-0 align-middle">
-                                      <div class="btn-group btn-group-sm">
-                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                                      </div>
-                                    </td>
-                                </tbody>
-                            </table>
+                            <div class="row">
+                              <div class="card-body col-sm-10 col-md-10 col-lg-4">
+                                <h5 class="card-title">Banco</h5>
+                                <p class="card-text">BBVA Continental.</p>
+                                
+                              </div>
+                              <div class="card-body col-sm-10 col-md-10 col-lg-4">
+                                <h5 class="card-title">Cuenta Corriente y Nombre</h5>
+                                <p class="card-text">Cuenta Corriente: 0011-0316-0100037791</p>
+                                <p class="card-text">Codigo Intervancacio: 011-316-000100037791-79</p>
+                              </div>
+                              <div class="card-body col-sm-10 col-md-10 col-lg-4">
+                                <h5 class="card-title">Titular de la cuenta</h5>
+                                <p class="card-text">JUNTA DE PROPIETARIOS CONJUNTO RESIDENCIAL CIUDAD VERDE.</p>
+                                
+                              </div>
+                            </div>
                         </div>
                    </div>
                    <div class="card card-warning">
@@ -307,63 +267,13 @@ $template='
                             </div>
                         </div>
                         <div class="card-body p-0">
-                            <table class="table">
-                                <thead>
-                                  <tr>
-                                    <th>File Name</th>
-                                    <th>File Size</th>
-                                    <th></th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                
-                                  <tr>
-                                    <td>Functional-requirements.docx</td>
-                                    <td>49.8005 kb</td>
-                                    <td class="text-right py-0 align-middle">
-                                      <div class="btn-group btn-group-sm">
-                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                                      </div>
-                                    </td>
-                                  <tr>
-                                    <td>UAT.pdf</td>
-                                    <td>28.4883 kb</td>
-                                    <td class="text-right py-0 align-middle">
-                                      <div class="btn-group btn-group-sm">
-                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                                      </div>
-                                    </td>
-                                  <tr>
-                                    <td>Email-from-flatbal.mln</td>
-                                    <td>57.9003 kb</td>
-                                    <td class="text-right py-0 align-middle">
-                                      <div class="btn-group btn-group-sm">
-                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                                      </div>
-                                    </td>
-                                  <tr>
-                                    <td>Logo.png</td>
-                                    <td>50.5190 kb</td>
-                                    <td class="text-right py-0 align-middle">
-                                      <div class="btn-group btn-group-sm">
-                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                                      </div>
-                                    </td>
-                                  <tr>
-                                    <td>Contract-10_12_2014.docx</td>
-                                    <td>44.9715 kb</td>
-                                    <td class="text-right py-0 align-middle">
-                                      <div class="btn-group btn-group-sm">
-                                        <a href="#" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                                        <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
-                                      </div>
-                                    </td>
-                                </tbody>
-                            </table>
+                            <div class="row">
+                              <div class="card-body col-sm-10 col-md-10 col-lg-12 ">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                              </div>          
+                            </div>
                         </div>
                    </div>
                 </div>
