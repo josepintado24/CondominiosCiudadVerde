@@ -1,6 +1,6 @@
 <?php
-$propietario_controler=new DtoPropietarioController();
-$propietario=$propietario_controler->get($_SESSION['dni']);
+//$propietario_controler=new DtoPropietarioController();
+//$propietario=$propietario_controler->get($_SESSION['dni']);
 $templant='
 
 <!-- Content Wrapper. Contains page content -->

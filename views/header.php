@@ -58,7 +58,7 @@ $template='
       <!-- Notifications Dropdown Menu -->
       <li class="nav-item dropdown">
         <a class="nav-link d-block" data-toggle="dropdown" href="#">
-          Jose Luis Pintado Vasquez
+          %s
         </a>
         
       </li>
@@ -145,4 +145,4 @@ $template='
   </aside>
   ';
 
-printf($template,$_SESSION['nombre'].' '.$_SESSION['apellido'],$_SESSION['nombre'].' '.$_SESSION['apellido']);
+printf($template,$_SESSION['pro_nombre']);

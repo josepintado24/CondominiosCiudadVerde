@@ -57,11 +57,10 @@ class Router{
                 }else{
                     $_SESSION['ok']=true;
                     foreach ($session as $row){
-                        $_SESSION['dni']=$row['dni'];
-                        $_SESSION['nombre']=$row['nombre'];
-                        $_SESSION['apellido']=$row['apellido'];
-                        $_SESSION['tipousuario']=$row['tipousuario'];
-                        $_SESSION['estado']=$row['estado'];
+                        $_SESSION['pro_dni']=$row['pro_dni'];
+                        $_SESSION['pro_nombre']=$row['pro_nombre'];
+                        $_SESSION['pro_estado']=$row['pro_estado'];
+                        $_SESSION['pro_contrasena']=$row['pro_contrasena'];
                     }
                     header ('Location:./');
                 }

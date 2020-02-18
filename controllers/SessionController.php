@@ -3,7 +3,7 @@ class SessionController{
     private $session;
 
     public function  __construct(){
-        $this->session=new UsersModel();
+        $this->session=new PropietarioModel();
     }
 
     public function login($dni){

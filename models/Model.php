@@ -2,13 +2,14 @@
 
 abstract class Model {
 
-	private static $db_host = 'brjgxecvcihvenutbxxk-mysql.services.clever-cloud.com';
-	private static $db_user = 'uyigepkhpjqyyuhg';
-	private static $db_pass = 'AheQHutea0gJAailQNqB';
-    private static $db_name = 'brjgxecvcihvenutbxxk';
-	//private static $db_name = 'ciudadverde';
-    //private static $db_user = 'root';
-    //private static $db_pass = '';
+	//private static $db_host = 'brjgxecvcihvenutbxxk-mysql.services.clever-cloud.com';
+	//private static $db_user = 'uyigepkhpjqyyuhg';
+	//private static $db_pass = 'AheQHutea0gJAailQNqB';
+    //private static $db_name = 'brjgxecvcihvenutbxxk';
+    private static $db_host = 'localhost';
+	private static $db_name = 'ciudad_verde';
+    private static $db_user = 'root';
+    private static $db_pass = '';
 	//protected $db_name;
 	private static $db_charset = 'utf8';
 	private $conn;
